@@ -1,0 +1,10 @@
+# backend/requirements.txt
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+python-multipart==0.0.6
+dashscope==1.14.0
+aiofiles==23.2.1
+python-magic==0.4.27  # 可选, 用于 MIME 检测
+PyPDF2==3.0.1          # PDF 文本提取
+python-docx==1.1.0     # Word 文档提取
