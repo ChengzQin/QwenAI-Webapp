@@ -4,10 +4,14 @@ frontend/.env.local
 frontend/.env.*.local
 
 backend/venv/
-backend/__pycache__/
-backend/*.pyc
-backend/.env          
 backend/uploads/
+backend/.env
+
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cd]
 
 .DS_Store
 Thumbs.db
